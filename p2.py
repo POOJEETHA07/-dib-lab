@@ -1,0 +1,23 @@
+import pandas as pd 
+import numpy  as np
+data={'A':[1,2,3,4,5],'B':[10,20,30,40,50],'C':[2.5,3.5,1.5,4.5,2.0]}
+df=pd.DataFrame(data)
+mean_values=df.mean()
+print('Mean Values:')
+print(mean_values)
+print()
+mode_values=df.mode()
+print('Mode Values:')
+print(mode_values)
+print()
+median_values=df.median()
+print('Median Values:')
+print(median_values)
+print()
+std_values=df.std()
+print('Standard Deviation Values:')
+print(std_values)
+print()
+summary_stats=df.describe()
+print("Summary statistics:")
+print(summary_stats)
