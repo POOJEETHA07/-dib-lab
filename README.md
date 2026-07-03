@@ -1,2 +1,2 @@
-# -dib-lab
+# -dip-lab
 Dip lab full programs
